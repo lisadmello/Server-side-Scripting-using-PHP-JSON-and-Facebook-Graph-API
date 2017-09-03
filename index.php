@@ -3,8 +3,8 @@
 <?php $temp=''; $temp2=''; $temp3=''; ?>
 <?php
         $fb = new Facebook\Facebook([
-                'app_id'=>'275276542903739',
-                'app_secret'=>'c982f1e11971dd7266cebc3661b225a6',
+                'app_id'=>'xxxxxxxxxxxxxxxxxxxxx',
+                'app_secret'=>'xxxxxxxxxxxxxxxxxxxxx',
                 'default_graph_version'=>'v2.8',
             ]);
         $q = '';
@@ -12,8 +12,8 @@
         $address = '';
         $distance = '';
         $s = '';
-        $api_key = "AIzaSyCfOzPbMYcP8FzAQNfrzOavp33gWgpMaT0";
-        $access_token = "EAAD6XNCOBbsBAKniZAw0mN0Pu8CcqOK5rPOZBaO3STZAHFx5DGU68LQZBziAamm4BTrFq2H3avzin3cuXYZC3Lvd4TsjH8Qmfssky8qI3j0qsgN6GpSZBsqwpqbeab4sMFcXY4fYZAUZBO6iROSF76fzkqpY86FCdzAZD";
+        $api_key = "xxxxxxxxxx";
+        $access_token = "xxxxxxxx";
         $fb->setDefaultAccessToken($access_token);
 ?>
 <html>
